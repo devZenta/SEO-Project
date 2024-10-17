@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4; /* Couleur de fond claire pour un contraste agréable */
+}
+
+h1, h2, h3 {
+    color: #2c3e50; /* Une teinte de gris foncé pour les titres */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #34495e; /* Gris foncé */
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #2980b9; /* Couleur de survol */
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropbtn {
+    cursor: pointer;
+    padding: 14px 16px;
+    background-color: #34495e;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Couleur de fond pour le dropdown */
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Couleur de survol pour le dropdown */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Affiche le dropdown au survol */
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #2980b9; /* Ligne sous les titres */
+    padding-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #34495e; /* Couleur de fond du footer */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+}
+
+.footer-content p {
+    margin: 5px 0; /* Espace entre les paragraphes du footer */
+}
