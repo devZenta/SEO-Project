@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; /* Transition pour le changement de couleur et la transformation */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #f9a825; /* Couleur au survol */
+    transform: scale(1.1); /* Zoom léger */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s; /* Transition pour l'ombre et la transformation */
+}
+
+section:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre plus forte au survol */
+    transform: translateY(-5px); /* Légère élévation */
+}
+
+h2 {
+    color: #35424a;
+    transition: color 0.3s; /* Transition pour la couleur du titre */
+}
+
+section:hover h2 {
+    color: #f9a825; /* Changement de couleur au survol de la section */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    transition: background 0.3s; /* Transition pour le fond du pied de page */
+}
+
+footer:hover {
+    background: #2c3e50; /* Couleur plus sombre au survol */
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Ajoute un léger arrondi aux coins */
+    margin: 15px 0; /* Espacement autour des images */
+}
+.btn-admission {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ff3b30; /* Couleur rouge */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Transition pour le survol */
+}
+
+.btn-admission:hover {
+    background-color: #d62828; /* Couleur rouge plus foncé au survol */
+    transform: scale(1.05); /* Légère élévation au survol */
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-image {
+    max-width: 100px; /* Ajuste la taille selon tes besoins */
+    height: auto;
+    transition: transform 0.3s; /* Transition pour le survol */
+}
+
+.logo-image:hover {
+    transform: scale(1.1); /* Légère élévation au survol */
+}
+.title {
+    font-family: 'Pacifico', cursive; /* Application de la police Pacifico */
+    font-size: 2.5em; /* Ajuste la taille selon tes besoins */
+    margin: 10px 0; /* Marges autour du titre */
+    color: #2e88b1; /* Couleur du texte */
+}
+#reviews {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    margin-bottom: 15px;
+}
+
+.review h3 {
+    color: #35424a;
+}
+
+.review p {
+    font-style: italic;
+}
+#pricing-courses {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.box {
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 48%; /* Ajuste la largeur selon tes besoins */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+    color: #35424a;
+}
+.info-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.info-button {
+    background-color: #35424a; /* Couleur du bouton */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.info-button:hover {
+    background-color: #5a5a5a; /* Couleur au survol */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; /* Couleur au survol des liens */
+}
+
+.info-dropdown:hover .dropdown-content {
+    display: block; /* Affiche le menu lors du survol */
+}
