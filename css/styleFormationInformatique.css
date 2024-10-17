@@ -51,12 +51,12 @@ section:hover {
 }
 
 h2 {
-    color: #35424a;
+    color: #576a75;
     transition: color 0.3s; /* Transition pour la couleur du titre */
 }
 
 section:hover h2 {
-    color: #f9a825; /* Changement de couleur au survol de la section */
+    color: #ff0000; /* Changement de couleur au survol de la section */
 }
 
 footer {
@@ -108,7 +108,7 @@ footer:hover {
 }
 
 .logo-image {
-    max-width: 100px; /* Ajuste la taille selon tes besoins */
+    max-width: 200px; /* Ajuste la taille selon tes besoins */
     height: auto;
     transition: transform 0.3s; /* Transition pour le survol */
 }
@@ -117,10 +117,10 @@ footer:hover {
     transform: scale(1.1); /* Légère élévation au survol */
 }
 .title {
-    font-family: 'Pacifico', cursive; /* Application de la police Pacifico */
+    font-family: 'Merriweather', serif; /* Utilisation de Merriweather */
     font-size: 2.5em; /* Ajuste la taille selon tes besoins */
     margin: 10px 0; /* Marges autour du titre */
-    color: #2e88b1; /* Couleur du texte */
+    color: #ef3535; /* Couleur du texte */
 }
 #reviews {
     background: #f9f9f9;
@@ -166,9 +166,9 @@ footer:hover {
 }
 
 .info-button {
-    background-color: #35424a; /* Couleur du bouton */
+    background-color: #ff0000; /* Couleur du bouton */
     color: white;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -176,7 +176,7 @@ footer:hover {
 }
 
 .info-button:hover {
-    background-color: #5a5a5a; /* Couleur au survol */
+    background-color: #db0000; /* Couleur au survol */
 }
 
 .dropdown-content {
@@ -201,4 +201,39 @@ footer:hover {
 
 .info-dropdown:hover .dropdown-content {
     display: block; /* Affiche le menu lors du survol */
+}
+.button-container {
+    display: flex;           /* Utilise Flexbox pour disposer les boutons en ligne */
+    gap: 30px;              /* Espace entre les boutons */
+    margin-top: 50px;       /* Espace au-dessus de la section */
+    margin-left: 390px; /* Ajuste la valeur selon tes besoins */
+}
+
+.nav-buttons a.button {
+    background-color: #2980b9; /* Couleur de fond des boutons */
+    color: white;              /* Couleur du texte */
+    padding: 10px 15px;       /* Espacement interne */
+    text-decoration: none;     /* Pas de soulignement */
+    border-radius: 5px;       /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition de couleur */
+}
+
+.nav-buttons a.button:hover {
+    background-color: #1a5b8a; /* Couleur au survol */
+}
+.button {
+    display: inline-block; /* Permet d'utiliser padding et marges */
+    padding: 10px 20px; /* Espacement à l'intérieur du bouton */
+    margin: 50px 0; /* Espacement autour du bouton */
+    background-color: #0696f0; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    text-decoration: none; /* Pas de soulignement */
+    font-weight: bold; /* Met le texte en gras */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, transform 0.3s; /* Transitions pour le survol */
+}
+
+.button:hover {
+    background-color: #5a5a5a; /* Couleur au survol */
+    transform: scale(1.05); /* Légère élévation au survol */
 }

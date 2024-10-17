@@ -1,0 +1,48 @@
+body {
+    font-family: 'Merriweather', serif; /* Utilisation d'une typographie plus accueillante */
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Fond léger pour le contraste */
+}
+
+header {
+    margin-bottom: 20px; /* Espacement sous l'en-tête */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2980b9; /* Couleur du bouton */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #3498db; /* Couleur au survol */
+    transform: scale(1.05);
+}
+
+.program {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff; /* Fond blanc pour le contenu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h2 {
+    color: #2c3e50; /* Couleur du titre principal */
+}
+
+h3 {
+    color: #ff0000; /* Couleur des sous-titres */
+    margin-top: 15px; /* Espacement au-dessus des sous-titres */
+}
+
+p {
+    margin: 10px 0; /* Espacement autour des paragraphes */
+    color: #333; /* Couleur du texte */
+}
