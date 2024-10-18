@@ -197,3 +197,45 @@ header {
     max-height: 357px;
     object-fit: cover; /* Assurez-vous que l'image couvre toute la section */
 }
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem; /* Ajustez la taille de la police selon vos besoins */
+    color: #FF595A; /* Couleur du texte */
+    margin: 20px 0; /* Ajoutez de l'espace au-dessus et en dessous du titre */
+}
+
+.reviews {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Changez de right à left pour déplacer la zone à gauche */
+    background-color: #fff; /* Changez la couleur de fond à blanc */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px; /* Augmentez le padding pour plus d'espace intérieur */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Augmentez la largeur */
+    height: 125px; /* Ajoutez une hauteur fixe */
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review img {
+    width: 40px; /* Augmentez la taille de l'image */
+    height: 40px; /* Augmentez la taille de l'image */
+    margin-right: 10px;
+}
+
+.review p {
+    margin: 0;
+    font-size: 1rem; /* Augmentez la taille de la police */
+    color: #FF595A;
+    font-weight: bold;
+}
