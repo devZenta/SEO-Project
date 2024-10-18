@@ -27,13 +27,13 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s, transform 0.3s; /* Transition pour le changement de couleur et la transformation */
+    transition: color 0.3s, transform 0.3s; 
 }
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: #f9a825; /* Couleur au survol */
-    transform: scale(1.1); /* Zoom léger */
+    color: #f9a825; 
+    transform: scale(1.1); 
 }
 
 section {
@@ -42,21 +42,21 @@ section {
     background: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s, transform 0.3s; /* Transition pour l'ombre et la transformation */
+    transition: box-shadow 0.3s, transform 0.3s; 
 }
 
 section:hover {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre plus forte au survol */
-    transform: translateY(-5px); /* Légère élévation */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); 
 }
 
 h2 {
     color: #576a75;
-    transition: color 0.3s; /* Transition pour la couleur du titre */
+    transition: color 0.3s; 
 }
 
 section:hover h2 {
-    color: #ff0000; /* Changement de couleur au survol de la section */
+    color: #ff0000; 
 }
 
 footer {
@@ -67,35 +67,35 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    transition: background 0.3s; /* Transition pour le fond du pied de page */
+    transition: background 0.3s; 
 }
 
 footer:hover {
-    background: #2c3e50; /* Couleur plus sombre au survol */
+    background: #2c3e50; 
 }
 
 
 .responsive {
     max-width: 50%;
     height: auto;
-    border-radius: 5px; /* Ajoute un léger arrondi aux coins */
-    margin: 40px 0; /* Espacement autour des images */
+    border-radius: 5px; 
+    margin: 40px 0; 
 }
 .btn-admission {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #ff3b30; /* Couleur rouge */
+    background-color: #ff3b30; 
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    transition: background-color 0.3s, transform 0.3s; /* Transition pour le survol */
+    transition: background-color 0.3s, transform 0.3s; 
 }
 
 .btn-admission:hover {
-    background-color: #d62828; /* Couleur rouge plus foncé au survol */
-    transform: scale(1.05); /* Légère élévation au survol */
+    background-color: #d62828; 
+    transform: scale(1.05); 
 }
 .logo {
     display: block;
@@ -103,19 +103,19 @@ footer:hover {
 }
 
 .logo-image {
-    max-width: 20px; /* Ajuste la taille selon tes besoins */
+    max-width: 20px; 
     height: auto;
-    transition: transform 0.3s; /* Transition pour le survol */
+    transition: transform 0.3s; 
 }
 
 .logo-image:hover {
-    transform: scale(1.1); /* Légère élévation au survol */
+    transform: scale(1.1); 
 }
 .title {
-    font-family: 'Merriweather', serif; /* Utilisation de Merriweather */
-    font-size: 2.5em; /* Ajuste la taille selon tes besoins */
-    margin: 10px 0; /* Marges autour du titre */
-    color: #ef3535; /* Couleur du texte */
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em; 
+    margin: 10px 0; 
+    color: #ef3535; 
 }
 #reviews {
     background: #f9f9f9;
@@ -148,7 +148,7 @@ footer:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 15px;
-    width: 48%; /* Ajuste la largeur selon tes besoins */
+    width: 48%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -161,7 +161,7 @@ footer:hover {
 }
 
 .info-button {
-    background-color: #ff0000; /* Couleur du bouton */
+    background-color: #ff0000; 
     color: white;
     padding: 10px 10px;
     border: none;
@@ -171,7 +171,7 @@ footer:hover {
 }
 
 .info-button:hover {
-    background-color: #db0000; /* Couleur au survol */
+    background-color: #db0000; 
 }
 
 .dropdown-content {
@@ -191,46 +191,46 @@ footer:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd; /* Couleur au survol des liens */
+    background-color: #ddd; 
 }
 
 .info-dropdown:hover .dropdown-content {
-    display: block; /* Affiche le menu lors du survol */
+    display: block; 
 }
 .button-container {
-    display: flex;           /* Utilise Flexbox pour disposer les boutons en ligne */
-    gap: 30px;              /* Espace entre les boutons */
-    margin-top: 50px;       /* Espace au-dessus de la section */
-    margin-left: 390px; /* Ajuste la valeur selon tes besoins */
+    display: flex;           
+    gap: 30px;            
+    margin-top: 50px;      
+    margin-left: 390px; 
 }
 
 .nav-buttons a.button {
-    background-color: #2980b9; /* Couleur de fond des boutons */
-    color: white;              /* Couleur du texte */
-    padding: 10px 15px;       /* Espacement interne */
-    text-decoration: none;     /* Pas de soulignement */
-    border-radius: 5px;       /* Coins arrondis */
-    transition: background-color 0.3s; /* Transition de couleur */
+    background-color: #2980b9;
+    color: white;              
+    padding: 10px 15px;     
+    text-decoration: none;     
+    border-radius: 5px;       
+    transition: background-color 0.3s; 
 }
 
 .nav-buttons a.button:hover {
-    background-color: #1a5b8a; /* Couleur au survol */
+    background-color: #1a5b8a; 
 }
 .button {
-    display: inline-block; /* Permet d'utiliser padding et marges */
-    padding: 10px 20px; /* Espacement à l'intérieur du bouton */
-    margin: 50px 0; /* Espacement autour du bouton */
-    background-color: #0696f0; /* Couleur de fond */
-    color: #ffffff; /* Couleur du texte */
-    text-decoration: none; /* Pas de soulignement */
-    font-weight: bold; /* Met le texte en gras */
-    border-radius: 5px; /* Coins arrondis */
-    transition: background-color 0.3s, transform 0.3s; /* Transitions pour le survol */
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin: 50px 0; 
+    background-color: #0696f0; 
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.3s; 
 }
 
 .button:hover {
-    background-color: #5a5a5a; /* Couleur au survol */
-    transform: scale(1.05); /* Légère élévation au survol */
+    background-color: #5a5a5a; 
+    transform: scale(1.05);
 }
 * {
     margin: 0;

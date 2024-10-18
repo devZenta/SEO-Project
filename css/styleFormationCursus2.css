@@ -1,59 +1,59 @@
 body {
-    font-family: 'Courier New', Courier, monospace; /* Police monospace pour un look informatique */
+    font-family: 'Courier New', Courier, monospace; 
     margin: 0;
     padding: 20px;
-    background-color: #2d2d2d; /* Fond sombre */
-    color: #d3d3d3; /* Texte clair */
+    background-color: #2d2d2d; 
+    color: #d3d3d3; 
     line-height: 1.5;
 }
 
 header {
-    margin-bottom: 20px; /* Espacement sous l'en-tête */
+    margin-bottom: 20px; 
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007acc; /* Bleu vif */
+    background-color: #007acc; 
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    border: 1px solid #005f99; /* Bordure plus foncée */
-    border-radius: 3px; /* Arrondi léger */
+    border: 1px solid #005f99; 
+    border-radius: 3px; 
     transition: background-color 0.2s, transform 0.2s;
 }
 
 .button:hover {
-    background-color: #005f99; /* Couleur plus foncée au survol */
-    transform: scale(1.05); /* Agrandissement au survol */
+    background-color: #005f99; 
+    transform: scale(1.05); 
 }
 
 .program {
-    border: 2px solid #444; /* Bordure gris foncé */
+    border: 2px solid #444; 
     padding: 20px;
-    border-radius: 5px; /* Arrondi léger */
-    background-color: #3e3e3e; /* Fond légèrement plus clair */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre forte */
+    border-radius: 5px; 
+    background-color: #3e3e3e; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 h2 {
-    color: #66ccff; /* Couleur bleu clair pour les titres principaux */
-    margin-bottom: 10px; /* Espacement sous le titre */
+    color: #66ccff; 
+    margin-bottom: 10px; 
 }
 
 h3 {
-    color: #99cc99; /* Couleur verte pour les sous-titres */
-    margin-top: 15px; /* Espacement au-dessus des sous-titres */
+    color: #99cc99; 
+    margin-top: 15px; 
 }
 
 p {
-    margin: 10px 0; /* Espacement autour des paragraphes */
-    color: #cccccc; /* Couleur du texte légèrement plus clair */
+    margin: 10px 0; 
+    color: #cccccc; 
 }
 
 code {
-    background-color: #444; /* Fond pour le code */
+    background-color: #444; 
     padding: 2px 4px;
-    border-radius: 3px; /* Arrondi léger */
-    color: #ffcc00; /* Couleur jaune pour le texte de code */
+    border-radius: 3px; 
+    color: #ffcc00; 
 }
