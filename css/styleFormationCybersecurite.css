@@ -97,3 +97,19 @@ footer {
 .footer-content p {
     margin: 5px 0; /* Espace entre les paragraphes du footer */
 }
+.btn-admission {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ff3b30; /* Couleur rouge */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Transition pour le survol */
+}
+
+.btn-admission:hover {
+    background-color: #d62828; /* Couleur rouge plus foncé au survol */
+    transform: scale(1.05); /* Légère élévation au survol */
+}
